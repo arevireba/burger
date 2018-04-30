@@ -1,12 +1,8 @@
 ### Seeds
-INSERT INTO burgers (burger_name, devoured) VALUES ("Single Hamburger", False);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Single Green Chile Cheeseburger", True);
 
-INSERT INTO burgers (burger_name, devoured) VALUES ("Double Hamburger", False);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Double Green Chile Cheeseburger", True);
 
-INSERT INTO burgers (burger_name, devoured) VALUES ("Single Cheeseburger", True);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Triple Green Chile Cheeseburger", True);
 
-INSERT INTO burgers (burger_name, devoured) VALUES ("Double Cheeseburger", True);
-
-INSERT INTO burgers (burger_name, devoured) VALUES ("Cheeseburger with Green Chile", True);
-
-INSERT INTO burgers (burger_name, devoured) VALUES ("Double Cheeseburger with Green Chile", True);
+INSERT INTO burgers (burger_name, devoured) VALUES ("Green Chile Cheeseburger Combo", True);

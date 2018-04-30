@@ -1,93 +1,46 @@
-li {
-  padding: 15px;
-  margin: 15px;
-  background: #ffffff;
-  list-style: none;
+* {
+	box-sizing: border-box;
 }
 
-ul {
-	list-style: none;
-}
-
-.label {
-  font-weight: bold;
-}
-
-.center {
-	text-align: center;
-}
-
-.right {
-	align-content: right;
-}
-
-img {
-	align-content: center;
+body {
+	position: relative;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 14em;
 }
 
 h1 {
+	color: red;
+	font-size: 24em;
+}
+
+#page-name {
 	text-align: center;
-	text-shadow: 2px 2px #ffffff;
+	margin: 30px 0;
 }
 
-h2 {
+#main-image {
+	height: 150px;
+	vertical-align: center;
+}
+
+.col-left {
+	padding-left: 20%;
+}
+
+.col-right {
+	text-align: left;
+}
+
+.table-first-col {
+	width: 270px;
+}
+
+td {
+    height: 50px;
+    vertical-align: center;
+}
+
+.create-form {
+	margin-top: 50px;
 	text-align: center;
-	text-shadow: 2px 2px #ffffff;
-}
-
-.create-update-form {
-  padding: 25px;
-  margin: 25px;
-  background: #eceff1;
-  border: 1px black solid;
-}
-
-.form-group {
-  margin-bottom: 25px;
-}
-
-.btn-primary {
-	border-radius: 15px;
-}
-
-html, body{
-	height: 100%;
-}
-body { 
-	background-image: url(http://glimpsesofcharleston.com/wp-content/uploads/2015/02/french-fries17908686_lrg.jpg) ;
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-	background-color: #000000;  
-}
-
-div, body{
-	margin: 0;
-	padding: 0;
-	font-family: exo, sans-serif;
-	color: black;
-}
-
-.footer {
-	text-align: center;
-	text-shadow: 1px 1px #ffffff;
-}
-.wrapper {
-	height: 100%; 
-	width: 100%; 
-	}
-
-.message {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%; 
-  height:45%;
-  bottom: 0; 
-  display: block;
-  position: absolute;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 0.5em;
 }

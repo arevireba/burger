@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Eat-Da-Green-Chile-Burger!</title>
+	<link rel="icon" sizes="32x32" href="./assets/img/green-chile.png">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<section id="page-name">
+				<img id="main-image" src="./assets/img/burger_icon.jpg"></img>
+				<h1>Eat-Da-Green-Chile-Burger</h1>
+		</section>
+
+		<section class="row">
+			<div class="col-md-7 col-left">
+				<table>
+					<tr class="table-row">
+						<td class="table-first-col">1. Green Chile Cheeseburger</td>
+						<td><button class="change-devour" data-id="1">Devour it!</button></td>
+					</tr>
+					<tr class="table-row">
+						<td class="table-first-col">2. Green Chile Double Cheeseburger</td>
+						<td><button class="change-devour" data-id="2">Devour it!</button></td>
+					</tr>
+					<tr class="table-row">
+						<td class="table-first-col">3. Green Chile Triple Cheeseburger</td>
+						<td><button class="change-devour" data-id="3">Devour it!</button></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-5 col-right">
+				<div>4. Green Chile Cheeseburger Combo</div>
+			</div>			
+		</section>
+
+		<form class="create-form">
+			<div class="form-group">
+				<label for="name"></label>
+				<textarea id="name" name="burger-name" rows="2" cols="40"></textarea>
+			</div>
+			<button type="submit">Add Burger</button>
+		</form>		
+	</div>
+</body>
+</html>
